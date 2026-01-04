@@ -121,6 +121,7 @@ https://localhost/NAMA_REPOSITORY/public
 Jika halaman utama tampil, maka aplikasi berhasil dijalankan 🎉
 
 👩‍💻 Tim Pengembang
+
 Kaisha — Backend Developer
 
 Tassa — Frontend Developer
