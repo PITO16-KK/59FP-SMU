@@ -49,13 +49,13 @@ Salin kode
 **XAMPP:**
 xampp/htdocs
 
-bash
-Salin kode
 
 **Command:**
 ```bash
 git clone https://github.com/USERNAME/NAMA_REPOSITORY.git
 cd NAMA_REPOSITORY
+```
+
 ### STEP 2 — Konfigurasi BASE_URL
 Edit file berikut:
 
@@ -65,8 +65,6 @@ app/Config/config.php
 Set nilai BASE_URL sesuai lokasi project di komputer masing-masing
 (bukan CLI / terminal):
 
-php
-Salin kode
 define('BASE_URL', 'https://localhost/NAMA_REPOSITORY/public/');
 ⚠️ WAJIB:
 
@@ -78,9 +76,7 @@ Menggunakan HTTPS (dibutuhkan untuk fitur tertentu)
 Buat file .env di root project (sejajar dengan folder app, core, public).
 
 Contoh struktur:
-
-pgsql
-Salin kode
+```bash
 NAMA_REPOSITORY/
 ├── app/
 ├── core/
@@ -88,10 +84,9 @@ NAMA_REPOSITORY/
 ├── .env
 ├── start.php
 └── README.md
+```
 Isi file .env sebagai berikut:
 
-env
-Salin kode
 ### DATABASE
 DB_HOST=localhost
 DB_NAME=nama_database
